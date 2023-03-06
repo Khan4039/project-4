@@ -1,0 +1,87 @@
+* {
+    margin-top: 15px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  nav{
+    /* navigaton bar  */
+    margin-left: 7%;
+    margin-right: 9% ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  /* list item */
+  ul{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  /* anchor tag removing underline and color black */
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+
+
+  /* list image */
+  ul img{
+   margin: auto;
+  }
+
+  /* both button */
+  button{
+    margin-left: auto;
+    margin-right: 0%;
+    padding: 15px 25px;
+    border-radius: 10px;
+    background-color: #5955b3;
+    color: aliceblue;
+    border: none;
+  }
+
+  /* in button text color that why using class */
+  .button{
+    color: aliceblue;
+  }
+
+/* page main area */
+main{
+    margin-left: 8%;
+    margin-right: 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* rigth larg image */
+div-rigth img{
+    height: 550px;
+}
+
+/* left heading */
+h1{
+    font-size: 6vh;
+    color: #3c2e60;
+    font-family: 'Poppins', sans-serif;
+    line-height: 60px;
+    padding-top: 10px;
+}
+
+/* left text para */
+p{
+  font-size: larger;
+  color: #828282;
+  padding-bottom: 25px;
+}
+
+/* in the heading a word wich has diffrent color */
+h1 t{
+    color: #5955b3;
+}
